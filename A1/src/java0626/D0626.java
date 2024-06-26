@@ -82,7 +82,7 @@ public class D0626 {
 		   	 변수.nextLine(); 문자열 입력
 		   	 
 		   	 
-		   	 
+		   	 dd
 		 
 		 
 		 
