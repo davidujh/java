@@ -11,7 +11,7 @@ public class D0626 {
 //		System.out.println("자바출력");
 //		//System.in - 입력
 //		// 입력받을 수 있는 내장 클레스 - Scanner
-		Scanner = new Scanner(System.in);
+		Scanner scan= new Scanner(System.in);
 //		
 //		//어떤 타입에 저장 ? -> next타입 
 //		//예외 char은 없음; 
@@ -25,13 +25,13 @@ public class D0626 {
 //		int lunchCost = crabNoodle+triRoll+bananaMilk;
 //		System.out.println(lunchCost);
 		
-		int 오르내림 = 4;
-		int 층수 = 5;
-		double 한층당시간 = 3.4;
-		double 총시간=  층수*한층당시간;
-		System.out.print(총시간);
-		double total = 총시간*오르내림;
-		System.out.printf("/n"+total);
+//		int 오르내림 = 4;
+//		int 층수 = 5;
+//		double 한층당시간 = 3.4;
+//		double 총시간=  층수*한층당시간;
+//		System.out.print(총시간);
+//		double total = 총시간*오르내림;
+//		System.out.printf("/n"+total);
 		
 		/*
 		 데이터 종류 정수,실수,문자,boolean(참,거짓)
@@ -82,13 +82,29 @@ public class D0626 {
 		   	 변수.nextLine(); 문자열 입력
 		   	 
 		   	 
-		   	 dd
+		   	
 		 
 		 
 		 
 		 */
 		
-		int c언어,자바,건축학개론;
+		int C,java,건축학개론;
+		
+		System.out.print("c언어 성적 : ");
+		C = scan.nextInt();
+		System.out.print("자바 성적 : ");
+		java = scan.nextInt();
+		System.out.print("건축학개론 성적  :");
+		건축학개론 = scan.nextInt();
+		
+		int total =C+java+건축학개론;
+		int avg = total/3;
+		
+		System.out.printf("총점 : %d점 , 평균 : %d점 \n" , total,avg);
+		
+		
+		
+		
 		
 		
 		
