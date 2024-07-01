@@ -43,6 +43,13 @@ public class D0626_1 {
 		 System.out.printf("\n\n직원이름 : %s \n소속부서 : %s \n실수령액 %d \n\n\n", 직원이름,소속부서,실수령액);
 		 System.out.printf("직원이름 : %s \n소속부서 : %s \n실수령액 %d \n", 직원이름1,소속부서1,실수령액1);
 		
+		 
+		 
+		 /*
+		   next() - 스페이스키, 탭키, 엔터키를 누르면 입력 끝
+		   nextLine() - 엔터키 누르면 입력 끝
+		  */
+		
 		
 		
 		
