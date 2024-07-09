@@ -40,7 +40,7 @@ public class Dbtest0708 {
 			
 			list = dao.select(); // 데이터베이스의 데이터를 Member클래스 배열로 가져오기
 			for(Member data : list) {
-				System.out.println(data);
+				System.out.print(data);
 			}
 			break;
 		}

@@ -33,7 +33,7 @@ public class Member {
 	@Override
 	public String toString() {
 		return"["+id+", "+name+", "+kor+", "+eng+", "+mat+" , "+
-				total+", "+std_avg+"]";
+				total+", "+std_avg+"]"; 
 	}
 	
 	public int getId() {
